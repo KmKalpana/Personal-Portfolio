@@ -7,7 +7,8 @@
   text-decoration: none;
 }
 body{
-  background-color: #171c28;
+  background-color: #05556C;
+
 }
 html {
   scroll-behavior: smooth;
@@ -39,6 +40,7 @@ section {
 .experience,
 .education,
 .skills,
+ .experience,
 .achievements,
 .contact,
 footer {
@@ -79,7 +81,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: blue;
+  color: crimson;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -167,11 +169,11 @@ section .title::after {
   filter: brightness(90%);
 }
 .about,
-.achievements, .projects {
+.achievements,.experience, .achievements{
   color: #fff;
   background: #111;
 }
-.education,.skills,.contact{
+.education,.projects, .skills,.contact{
   color: black;
   background: azure;
 }
@@ -478,7 +480,7 @@ section .title::after {
 }
 
 .contact {
-  background-color: #242D49;
+  background-color: #05556C;
   color: black
 }
 .contact .title::after {
