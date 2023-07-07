@@ -57,6 +57,7 @@ footer {
   justify-content: space-between;
 }
 
+
 section .title {
   position: relative;
   text-align: center;
@@ -161,10 +162,19 @@ section .title {
 .home {
   display: flex;
   height: 100vh;
-  color: #fff;
+  color: black;
   min-height: 500px;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
+  background-image: url('https://i.ibb.co/FbN4XFb/background.jpg'); 
+  background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  align-items: center;
+  /* background-attachment: fixed;
+  
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 .home .max-width {
   margin: auto 0 auto 30px;
@@ -605,6 +615,7 @@ a.color {
   }
 }
 
+
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
@@ -650,3 +661,4 @@ a.color {
     line-height: 38px;
   }
 }
+
